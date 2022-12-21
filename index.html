@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>roingus</title>
+    <title>bengus</title>
 
     <style>
         * {
@@ -81,7 +81,7 @@
         }
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1, ,user-scalable=no">
-    <meta property="og:title" content="roingus" />
+    <meta property="og:title" content="bengus" />
     <meta property="og:image" content="https://roing.us/roingus.png" />
     <meta property="og:description" content="click the creature" />
     <link rel="apple-touch-icon" sizes="120x120" href="/assets/apple-touch-icon.png">
@@ -106,7 +106,7 @@
         const counter = document.querySelector(".count")
         const discord = document.querySelector(".discord")
 
-        const roingNames = ["roingo", "roing", "rangus", "ringo", "rango", "roingOS", "roingy", "ron", "rongy", "roingie", "r", "rangoon", "roingusa"]
+        const roingNames = ["bengo", "beng", "bengus", "bengOS", "bengy", "ben", "bengie", "b", "bengoon", "bengusa"]
         const vowels = ["a", "e", "i", "o", "u"]
 
         let pressAudio = new Audio("assets/grab.mp3")
@@ -119,9 +119,9 @@
             if (rand < 0.04) {
                 return roingNames[Math.floor(Math.random() * roingNames.length)]
             } else if (rand < 0.06) {
-                return "roing" + vowels[Math.floor(Math.random() * vowels.length)] + vowels[Math.floor(Math.random() * vowels.length)]
+                return "beng" + vowels[Math.floor(Math.random() * vowels.length)] + vowels[Math.floor(Math.random() * vowels.length)]
             }
-            return "roingus"
+            return "bengus"
         }
 
         let cps = 0
